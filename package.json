@@ -1,0 +1,77 @@
+{
+  "name": "@opvs/nestjs-libs",
+  "version": "1.0.0",
+  "description": "Helpful NestJS libs for backend development",
+  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./exceptions": {
+      "default": "./dist/exceptions/index.js",
+      "types": "./dist/exceptions/index.d.ts"
+    },
+    "./filters": {
+      "default": "./dist/filters/index.js",
+      "types": "./dist/filters/index.d.ts"
+    },
+    "./interceptors": {
+      "default": "./dist/interceptors/index.js",
+      "types": "./dist/interceptors/index.d.ts"
+    },
+    "./loggers": {
+      "default": "./dist/loggers/index.js",
+      "types": "./dist/loggers/index.d.ts"
+    },
+    "./pipes": {
+      "default": "./dist/pipes/index.js",
+      "types": "./dist/pipes/index.d.ts"
+    },
+    "./transformers": {
+      "default": "./dist/transformers/index.js",
+      "types": "./dist/transformers/index.d.ts"
+    },
+    "./validators": {
+      "default": "./dist/validators/index.js",
+      "types": "./dist/validators/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opvs-io/nestjs-libs.git"
+  },
+  "keywords": [
+    "nestjs",
+    "nestjs-libs",
+    "api",
+    "backend"
+  ],
+  "author": "OPVS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opvs-io/nestjs-libs/issues"
+  },
+  "homepage": "https://github.com/opvs-io/nestjs-libs#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.199",
+    "@types/node": "^20.8.6",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.7",
+    "@nestjs/websockets": "^10.2.7",
+    "aws-sdk": "^2.1473.0",
+    "change-case": "^4.1.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "lodash": "^4.17.21",
+    "pino": "^8.16.0",
+    "rxjs": "^7.8.1"
+  }
+}
