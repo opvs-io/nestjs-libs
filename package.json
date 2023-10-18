@@ -1,6 +1,6 @@
 {
   "name": "@opvs/nestjs-libs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Helpful NestJS libs for backend development",
   "main": "index.js",
   "types": "./dist/index.d.ts",
